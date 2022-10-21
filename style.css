@@ -1,0 +1,38 @@
+
+head {
+    position: center;
+}
+body {
+    background-color: #FFF;
+    margin: fill;
+
+}
+
+table {
+    border: 5px solid black ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+thead {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+td {
+    background: #000000;
+}
+button{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    color: #ffffff;
+    background-color: #616161;
+    text-align: center;
+    border: 1px solid #466995;
+}
+button:hover {
+    background-color: #00fff4;
+}

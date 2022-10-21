@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce348452-325a-4bc9-b39f-7262e4945687" name="Changes" comment="Css und JS Ordner">
+    <list default="true" id="ce348452-325a-4bc9-b39f-7262e4945687" name="Changes" comment="HTML 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Taschenrechner.html" beforeDir="false" afterPath="$PROJECT_DIR$/Taschenrechner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
     "dart.analysis.tool.window.visible": "false",
     "list.type.of.created.stylesheet": "CSS",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "settings.editor.splitter.proportion": "0.15883978"
   }
@@ -72,7 +74,8 @@
       <workItem from="1665474339824" duration="2849000" />
       <workItem from="1665477233073" duration="1780000" />
       <workItem from="1665479041841" duration="31000" />
-      <workItem from="1666099602229" duration="2956000" />
+      <workItem from="1666099602229" duration="3153000" />
+      <workItem from="1666334179869" duration="8524000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1665475922238</created>
@@ -95,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666101004385</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HTML 1">
+      <created>1666102763778</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666102763778</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +126,7 @@
     <MESSAGE value="hello" />
     <MESSAGE value="hello 2" />
     <MESSAGE value="Css und JS Ordner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Css und JS Ordner" />
+    <MESSAGE value="HTML 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTML 1" />
   </component>
 </project>
