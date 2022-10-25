@@ -1,12 +1,135 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="TaschenrechnerJS.js"></script>
+    <title>Taschenrechnerinator</title>
 </head>
-
 <body>
-lkjsdhldah hehe
-</body>
 
+<section id="taschenrechner">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Der Taschenrechnerinator T-1000</th>
+            </tr>
+            <tr>
+                <!--<th colspan="4"> <input id="display" type="text" class="display"> </th>-->
+                <!--<th colspan="4">Fenster für Ergebnis usw.</th>-->
+                <!--<th colspan="4" class="output" id="disp"> </th>-->
+                <th colspan="4" ><input type="text" id="disp" class="output"> </input></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <button id="AC" onclick="clr()" >AC</button>
+                </td>
+                <td>
+                    <button onclick=window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">lol</button>
+                </td>
+                <td>
+                    <button id="x" value="">x²</button>
+                </td>
+                <td>
+                    <button id="divide" value="/" onclick="display('÷')">÷</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button id="seven" value="7" onclick="dis('7')">7</button>
+                </td>
+                <td>
+                    <button id="eight" value="8" onclick="dis(value)">8</button>
+                </td>
+                <td>
+                    <button id="nine" value="9" onclick="dis(value)">9</button>
+                </td>
+                <td>
+                    <button id="multiple" value="*" onclick="dis('×')">×</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button id="for" value="4" onclick="dis(value)">4</button>
+                </td>
+                <td>
+                    <button id="five" value="5" onclick="dis(value)">5</button>
+                </td>
+                <td>
+                    <button id="six" value="6" onclick="dis(value)">6</button>
+                </td>
+                <td>
+                    <button id="plus" value="+" onclick="dis(value)">+</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button id="one" value="1" onclick="dis(value)">1</button>
+                </td>
+                <td>
+                    <button id="two" value="2" onclick="dis(value)">2</button>
+                </td>
+                <td>
+                    <button id="three" value="3" onclick="dis(value)">3</button>
+                </td>
+                <td>
+                    <button id="minus" value="-" onclick="dis(value)">-</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button id="zero" value="0" onclick="dis(value)">0</button>
+                </td>
+                <td>
+                    <button id="point" onclick="dis(',')">,</button>
+                </td>
+                <td>
+                    <!--<input name="gleich" type="submit" value="=">-->
+                    <button>=</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!--
+
+<form method="post" action="TaschenrechnerJS.js">
+<form id="calc">
+    <output>0</output>
+    <fieldset>
+        <button>√</button>
+        <button>x²</button>
+        <button>ln</button>
+        <button>C</button>
+
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>+</button>
+
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
+
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>×</button>
+
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+        <button>÷</button>
+    </fieldset>
+</form>-->
+</body>
 </html>
