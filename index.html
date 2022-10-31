@@ -11,7 +11,10 @@
 
 <section id="taschenrechner">
     <table>
-        <thead>
+        <thead><tr>
+            <th colspan="2"></th>
+            <th colspan="2" class="solar"></th>
+        </tr>
             <tr>
                 <th colspan="4">Der Taschenrechnerinator T-1000</th>
             </tr>
@@ -19,7 +22,7 @@
                 <!--<th colspan="4"> <input id="display" type="text" class="display"> </th>-->
                 <!--<th colspan="4">Fenster für Ergebnis usw.</th>-->
                 <!--<th colspan="4" class="output" id="disp"> </th>-->
-                <th colspan="4" ><input type="text" id="disp" class="output"></th>
+                <th colspan="4" ><input type="text" id="disp" class="output" ></th>
             </tr>
         </thead>
         <tbody>
@@ -34,7 +37,8 @@
                     <button id="x" value="">x²</button>
                 </td>
                 <td>
-                    <button id="divide" value="/" onclick="display('÷')">÷</button>
+                    <button id="divide" value="/" onclick="dis('/')">÷</button>
+                    <!--÷-->
                 </td>
             </tr>
 
@@ -88,11 +92,11 @@
                     <button id="zero" value="0" onclick="dis(value)">0</button>
                 </td>
                 <td>
-                    <button id="point" onclick="dis(',')">,</button>
+                    <button id="point" onclick="dis('.')">.</button>
                 </td>
                 <td>
                     <!--<input name="gleich" type="submit" value="=">-->
-                    <button>=</button>
+                    <button id="equal" value="=" onclick="solve()">=</button>
                 </td>
             </tr>
         </tbody>

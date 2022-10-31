@@ -16,6 +16,12 @@ body {
     font-size: 20px;
     border-radius: 5px;
 }
+.solar {
+    background-color: rgb(43, 26, 20);
+    padding: 7px;
+    height: 5px;
+    border-radius: 5px;
+}
 table {
     border: 5px solid black ;
     border-radius: 10px;
@@ -24,10 +30,7 @@ table {
     background-color: #b3b3b3;
 }
 thead {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-top: auto;
+    margin: auto;
 
 }
 

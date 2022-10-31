@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce348452-325a-4bc9-b39f-7262e4945687" name="Changes" comment="HTML, CSS fertig? &#10;Teilelweise JS, nur Anzeige und Anzeigeleeren">
+    <list default="true" id="ce348452-325a-4bc9-b39f-7262e4945687" name="Changes" comment="HTML, CSS fertig? &#10;JS funktioniert teilweise + und - funtionieren">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaschenrechnerJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/TaschenrechnerJS.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -14,10 +15,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="grazie_rule" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,6 +34,7 @@
   <component name="ProjectId" id="2FyplpKEmlSIAtNKMYXtD2nMRD2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -44,6 +46,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cpaetzold/Documents/Arbeit/Taschenrechnerinator&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
@@ -51,6 +54,13 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.15883978&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cpaetzold\Documents\Arbeit\Taschenrechnerinator" />
+      <recent name="C:\Users\cpaetzold\Documents\Arbeit\Taschenrechnerinator\Taschenrechnerinator T-1000" />
+      <recent name="C:\Users\cpaetzold\Documents\Arbeit" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Taschenrechnerinator" />
@@ -81,7 +91,12 @@
       <workItem from="1666334179869" duration="10593000" />
       <workItem from="1666677702245" duration="598000" />
       <workItem from="1666680827572" duration="1385000" />
-      <workItem from="1666689628173" duration="9720000" />
+      <workItem from="1666689628173" duration="13434000" />
+      <workItem from="1667201460792" duration="2966000" />
+      <workItem from="1667206285707" duration="5356000" />
+      <workItem from="1667220316818" duration="1531000" />
+      <workItem from="1667222527067" duration="57000" />
+      <workItem from="1667222604151" duration="1497000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1665475922238</created>
@@ -125,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666703175620</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HTML, CSS fertig? &#10;Teilelweise JS, nur Anzeige und Anzeigeleeren">
+      <created>1666703589845</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666703589845</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +171,7 @@
     <MESSAGE value="HTML 1" />
     <MESSAGE value="Htm etwas verbessert und CSS hinzu gefügt" />
     <MESSAGE value="HTML, CSS fertig? &#10;Teilelweise JS, nur Anzeige und Anzeigeleeren" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTML, CSS fertig? &#10;Teilelweise JS, nur Anzeige und Anzeigeleeren" />
+    <MESSAGE value="HTML, CSS fertig? &#10;JS funktioniert teilweise + und - funtionieren" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTML, CSS fertig? &#10;JS funktioniert teilweise + und - funtionieren" />
   </component>
 </project>
